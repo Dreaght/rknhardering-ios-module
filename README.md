@@ -19,3 +19,17 @@ import RKNHarderingIOS
 let result = await VpnCheckRunner.run(homeCountryCode: "RU")
 print(result.verdict.rawValue)
 ```
+
+## Xcode App Project
+
+Generate app project:
+
+```bash
+ruby scripts/generate_xcodeproj.rb
+```
+
+Then open:
+
+`RKNHarderingIOSApp/RKNHarderingIOSApp.xcodeproj`
+
+Note: repository does not include personal signing data. Set your own Team in Xcode before running on device.
