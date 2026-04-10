@@ -6,7 +6,7 @@ Swift Package for iOS VPN/Proxy detection signals:
 - indirect network signs via `NWPathMonitor` and interfaces
 - verdict engine (`DETECTED / NEEDS_REVIEW / NOT_DETECTED`)
 
-<img width="1242" height="2688" alt="image" src="https://github.com/user-attachments/assets/2f2353c0-91ca-48d1-abdc-a721c75ca41f" />
+![ddec13f107dedc989f987d3faed9f712cb189318](https://github.com/user-attachments/assets/18e4855c-d0f8-471e-b5d9-ed97150b0b58)
 
 ## Install (Swift Package Manager)
 Add repository URL in Xcode SPM and import:
